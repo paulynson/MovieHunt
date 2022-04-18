@@ -1,38 +1,20 @@
-::-webkit-scrollbar {
-  width: 1px;
-  height: 1px;
-}
-::-webkit-scrollbar-button {
-  width: 1px;
-  height: 1px;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
-.App {
-  font-family: sans-serif;
+html, body{
+  font-size: 15px;
 }
 
-.container {
-  padding: 40px 77px;
-  display: flex;
-  align-items: center;
+.containers {
   height: 140px;
-  background-color: #292929;
-}
-
-.container h2 {
-  color: #ffffff;
-  border: 1px solid white;
-  padding: 14px 19px;
 }
 
 body {
-  background-color: #344;
+  background-color: rgb(15, 105, 105);
 }
 
 .heroContainer {
@@ -56,7 +38,7 @@ body {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 72px;
+  font-size: 4.5rem;
   line-height: 94px;
   letter-spacing: -0.05em;
   color: #ffffff;
@@ -72,7 +54,7 @@ body {
 
 .inner-content {
   position: relative;
-  width: 275px;
+  width: 255px;
   overflow: hidden;
   background-color: rgb(63, 133, 133);
   margin: 10px;
@@ -127,7 +109,7 @@ img {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 31px;
   color: #fff;
   margin: 4px 0px;
@@ -139,7 +121,7 @@ img {
   height: 54px;
   border: 1px solid #000000;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 16px;
   outline: 0;
 }
@@ -160,7 +142,7 @@ img {
   margin-bottom: 14px;
 }
 .card-content h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .bgContent {
@@ -172,7 +154,7 @@ img {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 31px;
   display: inline-block;
   align-items: center;
@@ -194,13 +176,13 @@ img {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 31px;
   color: #000000;
 }
 
 @media (max-width: 834px) {
-  .container,
+  .containers,
   .heroContainer {
     text-align: center;
     justify-content: center;
@@ -212,12 +194,12 @@ img {
     height: 34px;
   }
   .heroContainer h1 {
-    font-size: 28px;
+    font-size: 1.75rem;
     width: auto;
     line-height: 36px;
   }
   .form p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .form {
@@ -243,10 +225,10 @@ img {
   }
 
   .card-content p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .card-content h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .heroContainer {
     height: 257px;
